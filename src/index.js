@@ -1,14 +1,14 @@
 import apiService from './js/apiService.js';
-import filmCardTpl from './templates/filmCardTpl.hbs';
+import movieCardTpl from './templates/movieCardTpl.hbs';
 import './sass/main.scss';
 
 const moviesList = document.querySelector('.movies-list');
 
-apiService.fetchFilmCards().then(results => {
-  appendFilmsMarkup(results);
+apiService.fetchMovieCards().then(results => {
+  appendMoviesMarkup(results);
 });
 
-function appendFilmsMarkup (results) {
+function appendMoviesMarkup (results) {
   console.log(results);
-  moviesList.insertAdjacentHTML('beforeend', filmCardTpl(results));
+  moviesList.insertAdjacentHTML('beforeend', movieCardTpl(results));
 }
