@@ -1,7 +1,9 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+// @import './movies-container';
 
-// Стили для файла с примером HTML-фрагмента
-@import './movies-container';
+@import './utils/breakpoints';
+@import './utils/variables';
+
+@import './header';
+@import './main-container';
+@import './main-film-list';
+@import './film-list-item';

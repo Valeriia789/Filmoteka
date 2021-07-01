@@ -1,94 +1,94 @@
-$accent-color: #ff6b08;
+// $accent-color: #ff6b08;
 
-.movies-container {
-  padding-left: 15px;
-  padding-right: 15px;
+// .movies-container {
+//   padding-left: 15px;
+//   padding-right: 15px;
 
-  margin-left: auto;
-  margin-right: auto;
+//   margin-left: auto;
+//   margin-right: auto;
 
-  @media screen and (min-width: 320px) {
-    max-width: 320px;
-  }
+//   @media screen and (min-width: 320px) {
+//     max-width: 320px;
+//   }
 
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-  }
+//   @media screen and (min-width: 768px) {
+//     max-width: 768px;
+//   }
 
-  @media screen and (min-width: 1024px) {
-    max-width: 1024px;
-  }
-}
+//   @media screen and (min-width: 1024px) {
+//     max-width: 1024px;
+//   }
+// }
 
-.movies-list {
-  display: flex;
-  flex-wrap: wrap;
+// .movies-list {
+//   display: flex;
+//   flex-wrap: wrap;
 
-  margin: -15px;
-  list-style: none;
+//   margin: -15px;
+//   list-style: none;
 
-  .movies-list-item {
-    margin: 10px;
+//   .movies-list-item {
+//     margin: 10px;
 
-    @media screen and (min-width: 768px) {
-      width: calc((100% - 4 * 15px) / 2);
-      margin: 15px;
-    }
+//     @media screen and (min-width: 768px) {
+//       width: calc((100% - 4 * 15px) / 2);
+//       margin: 15px;
+//     }
 
-    @media screen and (min-width: 1024px) {
-      width: calc((100% - 6 * 15px) / 3);
-      margin: 15px;
-    }
+//     @media screen and (min-width: 1024px) {
+//       width: calc((100% - 6 * 15px) / 3);
+//       margin: 15px;
+//     }
 
-    .movie-poster {
-      border-radius: 2%;
-      width: 280px;
+//     .movie-poster {
+//       border-radius: 2%;
+//       width: 280px;
 
-      @media screen and (min-width: 768px) {
-        width: 294px;
+//       @media screen and (min-width: 768px) {
+//         width: 294px;
 
-      }
+//       }
   
-      @media screen and (min-width: 1024px) {
-        width: 274px;
+//       @media screen and (min-width: 1024px) {
+//         width: 274px;
 
-      }
-    }
-  }
-}
+//       }
+//     }
+//   }
+// }
 
-.movie-card-info {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
+// .movie-card-info {
+//   font-family: Roboto;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 12px;
+//   line-height: 14px;
 
-  .movie-title {
-    text-transform: uppercase;
-    color: #000000;
-  }
+//   .movie-title {
+//     text-transform: uppercase;
+//     color: #000000;
+//   }
 
-  .movie-card-details {
-    display: flex;
+//   .movie-card-details {
+//     display: flex;
 
-    .movie-details {
-      color: $accent-color;
-    }
+//     .movie-details {
+//       color: $accent-color;
+//     }
 
-    .movie-details-vote {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-      width: 36px;
-      height: 16px;
+//     .movie-details-vote {
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: center;
+//       width: 36px;
+//       height: 16px;
 
-      text-transform: uppercase;
-      border-radius: 5px;
+//       text-transform: uppercase;
+//       border-radius: 5px;
 
-      color: #ffffff;
-      background-color: $accent-color;
-    }
-  }
-}
+//       color: #ffffff;
+//       background-color: $accent-color;
+//     }
+//   }
+// }

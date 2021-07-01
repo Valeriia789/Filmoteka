@@ -1,0 +1,43 @@
+header {
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-between;
+
+  max-width: inherit;
+  height: 230px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 60px;
+
+  padding: 40px;
+
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media screen and (min-width: $mobile) {
+  }
+
+  @media screen and (min-width: $tablet) {
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 1024;
+  }
+}
+
+.header__buttons-container {
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+
+  margin-bottom: 20px;
+}
+
+.header__input-container {
+  display: flex;
+  justify-content: center;
+}
